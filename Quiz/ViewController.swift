@@ -5,6 +5,7 @@
 //  Created by Jiajia Luo on 5/20/15.
 //  Copyright (c) 2015 N/A. All rights reserved.
 //
+//  Added AutoLayout
 
 import UIKit
 
