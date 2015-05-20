@@ -6,6 +6,7 @@
 //  Copyright (c) 2015 N/A. All rights reserved.
 //
 //  Added AutoLayout
+//  Added Test
 
 import UIKit
 
