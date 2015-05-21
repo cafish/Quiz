@@ -3,18 +3,18 @@
 //  Quiz
 //
 //  Created by Jiajia Luo on 5/20/15.
-//  Copyright (c) 2015 N/A. All rights reserved.
+//  Copyright (c) 2015 Jiajia Luo. All rights reserved.
 //
 //  Added AutoLayout
 //  Added Test
+//  New Branch
 
 import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var questionLabel: UILabel!
     
-    @IBOutlet weak var answerLabel: UILabel!
+    // Define properties or model variables
     
     let questions: [String] = ["1+1?",
         "What is 2+2?",
@@ -22,27 +22,37 @@ class ViewController: UIViewController {
         "What is Pi"]
     
     let answers: [String] = ["2",
-            "4",
-            "6",
-            "3.1415926"]
+        "4",
+        "6",
+        "3.1415926"]
     
     var currentQuestionIndex: Int = 0
     
     
+    // Define View objects
+    @IBOutlet weak var questionLabel: UILabel!
+    
+    @IBOutlet weak var answerLabel: UILabel!
+    
     @IBAction func showQuestion(sender: AnyObject) {
-            ++currentQuestionIndex
-            if currentQuestionIndex == questions.count {
-        currentQuestionIndex = 0
-            }
-            let question: String = questions[currentQuestionIndex]
-            questionLabel.text = question
-            answerLabel.text = "???"
+        ++currentQuestionIndex
+        if currentQuestionIndex == questions.count {
+            currentQuestionIndex = 0
+        }
+        let question: String = questions[currentQuestionIndex]
+        questionLabel.text = question
+        answerLabel.text = "???"
+        
+        self.view.backgroundColor = UIColor.whiteColor()
     }
     
     
     @IBAction func showAnswer(sender: AnyObject) {
         let answer: String = answers[currentQuestionIndex]
         answerLabel.text = answer
+        
+        self.view.backgroundColor = UIColor.blueColor()
+        
     }
     
     override func viewDidLoad() {

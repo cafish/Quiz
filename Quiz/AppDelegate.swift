@@ -3,7 +3,7 @@
 //  Quiz
 //
 //  Created by Jiajia Luo on 5/20/15.
-//  Copyright (c) 2015 N/A. All rights reserved.
+//  Copyright (c) 2015 Jiajia Luo. All rights reserved.
 //
 
 import UIKit

@@ -413,6 +413,7 @@
 				60BE32A91B0D0D6700A2D141 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60BE32AA1B0D0D6700A2D141 /* Build configuration list for PBXNativeTarget "QuizTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +422,7 @@
 				60BE32AC1B0D0D6700A2D141 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
